@@ -48,3 +48,34 @@
  <li><strong>Lightweight and Fast:</strong> Even with many extensions, VS Code remains responsive and efficient.</li> 
  <li><strong>Customizable Interface:</strong> Adjust themes, keybindings, layouts, and settings to create the perfect coding environment for your style.</li> 
 </ul>
+
+## INSTALLATION AND SETUP
+
+<p>Installing and configuring <strong>Visual Studio Code (VS Code)</strong> is a simple process, and the editor is designed to work seamlessly across different operating systems. Below, you will find a step-by-step guide to ensure you are ready to start coding efficiently.</p>
+
+### DOWNLOAD
+<ul> 
+ <li><strong>Official Website:</strong> Access the <a href="https://code.visualstudio.com/" target="_blank">official VS Code website</a> and download the appropriate installer for your operating system (Windows, macOS, or Linux).</li> 
+ <li><strong>Alternative Installations:</strong> On Linux, you can also install VS Code via package managers like <code>apt</code> (Debian/Ubuntu) or <code>yum</code> (Red Hat/Fedora).</li> 
+</ul>
+
+### INSTALLATION SETUP
+<ul> 
+ <li><strong>Windows:</strong> Run the downloaded <code>.exe</code> file and follow the installation wizard. Choose to add VS Code to your system path and enable the option to "Open with Code" from the right-click context menu (recommended).</li> 
+ <li><strong>macOS:</strong> Open the downloaded <code>.zip</code> file and drag the <strong>Visual Studio Code</strong> application into your Applications folder.</li> 
+ <li><strong>Linux:</strong> Install using the terminal by running: <pre><code>sudo apt install code</code></pre> or use Snap: <pre><code>sudo snap install --classic code</code></pre> </li> 
+</ul>
+
+### BASIC CONFIGURATION
+<ul> 
+ <li><strong>Set Your Preferred Language:</strong> VS Code automatically detects your system language, but you can change it anytime by installing a Language Pack from the Extension Marketplace.</li> 
+ <li><strong>Theme Selection:</strong> Choose between Light, Dark, or High Contrast themes during the first setup or change it later through <em>Settings &gt; Theme</em>.</li> 
+ <li><strong>Install Essential Extensions:</strong> Quickly enhance your VS Code with language support, debuggers, formatters, and other tools tailored to your workflow.</li> 
+</ul>
+
+### INITIAL SETTINGS TIPS
+<ul> 
+ <li><strong>Auto Save:</strong> Enable Auto Save to automatically save your changes after a short delay.</li> 
+ <li><strong>Format on Save:</strong> Configure the editor to automatically format your code every time you save the file.</li> 
+ <li><strong>Sync Settings:</strong> Sign in with your GitHub or Microsoft account to synchronize your settings, extensions, and preferences across devices.</li> 
+</ul>
