@@ -3,7 +3,7 @@
 </div>
 
 <nav align="center">
-  <h2>🔗 NAVIGATION</h2>
+  <h2>NAVIGATION</h2>
   <p>
     <a href="#about-this-guide">ABOUT THIS GUIDE</a> |
     <a href="#why-choose-vs-code">WHY CHOOSE VS CODE?</a> |
@@ -18,8 +18,11 @@
   </p>
 </nav>
 
-<a id="about-this-guide">ABOUT THIS GUIDE</a>
-<p>This guide was created to serve as a complete and practical manual for developers of all levels who want to master <strong>Visual Studio Code (VS Code)</strong>. Whether you are taking your first steps in programming or are already an experienced professional, this material aims to offer clear instructions, useful tips, and valuable resources to enhance your productivity and coding experience.</p> <p>Here, you will find an overview of why VS Code has become one of the most popular code editors in the world, how to set it up correctly, the most recommended extensions, powerful shortcuts, advanced customization, and much more.</p> <p>By the end of this guide, you will be able to:</p>
+## ABOUT THIS GUIDE
+
+<p>This guide was created to serve as a complete and practical manual for developers of all levels who want to master <strong>Visual Studio Code (VS Code)</strong>. Whether you are taking your first steps in programming or are already an experienced professional, this material aims to offer clear instructions, useful tips, and valuable resources to enhance your productivity and coding experience.</p> <p>Here, you will find an overview of why VS Code has become one of the most popular code editors in the world, how to set it up correctly, the most recommended extensions, powerful shortcuts, advanced customization, and much more.</p> 
+
+<p>By the end of this guide, you will be able to:</p>
 
 <ul>
   <li>Understand why VS Code is a standout among development tools.</li>
