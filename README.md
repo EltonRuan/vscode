@@ -79,3 +79,11 @@
  <li><strong>Format on Save:</strong> Configure the editor to automatically format your code every time you save the file.</li> 
  <li><strong>Sync Settings:</strong> Sign in with your GitHub or Microsoft account to synchronize your settings, extensions, and preferences across devices.</li> 
 </ul>
+
+## ESSENTIAL EXTENSIONS
+## SHORTCUTS AND TIPS
+## THEMES AND CUSTOMIZATION
+## DEBUGGING
+## COMMON ISSUES AND TROUBLESHOOTING
+## MULTILANGUAGE SUPPORT
+## FINAL CONSIDERATIONS
