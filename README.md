@@ -84,7 +84,7 @@
 
 Visual Studio Code is known for its rich ecosystem of extensions that enhance productivity, support multiple languages, improve code readability, and streamline development workflows. Below is a complete list combining community-favorite extensions and personal picks to get the best out of your VS Code experience.
 
-### 🔧 Productivity & Utilities
+### Productivity & Utilities
 
 - **Auto Rename Tag** – Automatically renames paired HTML/XML tags when one is edited.  
 - **Path Intellisense** – Autocompletes filenames in your project.  
@@ -97,7 +97,7 @@ Visual Studio Code is known for its rich ecosystem of extensions that enhance pr
 - **EditorConfig for VS Code** – Maintains consistent coding styles between different editors.  
 - **Bracket Pair Color DLW / Rainbow Brackets** – Colorize matching brackets to improve readability.
 
-### 🎨 Appearance & UI
+### Appearance & UI
 
 - **vscode-icons** – Adds vibrant icons to the file explorer for better navigation.  
 - **Material Icon Theme** – An alternative icon theme with material-style icons.  
@@ -105,7 +105,7 @@ Visual Studio Code is known for its rich ecosystem of extensions that enhance pr
 - **Dracula Official** – A popular dark theme with eye-friendly contrast.  
 - **One Dark Pro** – Atom’s classic theme, highly favored for its aesthetics.
 
-### 🐍 Language Support
+### Language Support
 
 - **Python** – Essential for Python development (includes linting, Jupyter, etc.).  
 - **PHP Intelephense** – Advanced PHP support with powerful auto-completion and linting.  
@@ -117,14 +117,14 @@ Visual Studio Code is known for its rich ecosystem of extensions that enhance pr
 - **SVG Preview** – Preview SVG files and inspect properties without leaving the editor.  
 - **Docker** – Manage Docker containers and images from within VS Code.
 
-### 🧩 Collaboration & Integration
+### Collaboration & Integration
 
 - **Live Share** – Real-time collaborative editing with peers.  
 - **GitLens** – Supercharges the Git capabilities in VS Code with annotations and insights.  
 - **GitHub Copilot** – AI-powered code assistant trained on billions of lines of code.  
 - **Discord Presence** – Show your current file, language, and project in Discord.
 
-### 🧪 Snippets, Code & Workflow
+### Snippets, Code & Workflow
 
 - **CodeSnap** – Take beautiful screenshots of your code for sharing.  
 - **Composer** – Manage your PHP dependencies directly within VS Code.  
@@ -132,7 +132,7 @@ Visual Studio Code is known for its rich ecosystem of extensions that enhance pr
 - **DotENV** – Syntax highlighting for `.env` files.  
 - **Project Manager** – Easily switch between projects and folders.
 
-### 💡 Installation Guide
+### Installation Guide
 
 To install any of these:
 
