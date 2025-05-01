@@ -189,7 +189,7 @@ Visual Studio Code is packed with keyboard shortcuts and hidden features that ca
 | Open Settings                         | `Cmd + ,`               |
 | Open Extensions                       | `Cmd + Shift + X`       |
 
-### 💡 Tips to Boost Productivity
+### Tips to Boost Productivity
 
 - **Multi-Cursor Editing**: Hold `Alt` (Windows/Linux) or `Option` (macOS) and click to place multiple cursors.
 - **Zen Mode**: Toggle distraction-free mode with `Ctrl + K Z`.
