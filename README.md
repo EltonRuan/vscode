@@ -142,6 +142,64 @@ To install any of these:
 4. Click **Install**.
 
 ## SHORTCUTS AND TIPS
+
+Visual Studio Code is packed with keyboard shortcuts and hidden features that can drastically speed up your workflow. Below is a curated list of the most useful shortcuts and tips for beginners and experienced developers alike.
+
+### Common Keyboard Shortcuts (Windows/Linux)
+
+| Action                                | Shortcut                |
+|---------------------------------------|-------------------------|
+| Show Command Palette                  | `Ctrl + Shift + P`      |
+| Quick Open File                       | `Ctrl + P`              |
+| Open Terminal                         | `Ctrl + '`              |
+| Split Editor                          | `Ctrl + \`              |
+| Toggle Sidebar                        | `Ctrl + B`              |
+| Toggle Comment Line                   | `Ctrl + /`              |
+| Move Line Up/Down                     | `Alt + ↑ / ↓`           |
+| Copy Line Up/Down                     | `Shift + Alt + ↑ / ↓`   |
+| Select Word/Expand Selection          | `Ctrl + D`              |
+| Select All Occurrences of Word        | `Ctrl + Shift + L`      |
+| Format Document                       | `Shift + Alt + F`       |
+| Rename Symbol                         | `F2`                    |
+| Go to Definition                      | `F12`                   |
+| Peek Definition                       | `Alt + F12`             |
+| Show Problems                         | `Ctrl + Shift + M`      |
+| Open Settings                         | `Ctrl + ,`              |
+| Open Extensions                       | `Ctrl + Shift + X`      |
+
+### Common Keyboard Shortcuts (macOS)
+
+| Action                                | Shortcut                |
+|---------------------------------------|-------------------------|
+| Show Command Palette                  | `Cmd + Shift + P`       |
+| Quick Open File                       | `Cmd + P`               |
+| Open Terminal                         | `Ctrl + `` `            |
+| Split Editor                          | `Cmd + \`               |
+| Toggle Sidebar                        | `Cmd + B`               |
+| Toggle Comment Line                   | `Cmd + /`               |
+| Move Line Up/Down                     | `Option + ↑ / ↓`        |
+| Copy Line Up/Down                     | `Shift + Option + ↑ / ↓`|
+| Select Word/Expand Selection          | `Cmd + D`               |
+| Select All Occurrences of Word        | `Cmd + Shift + L`       |
+| Format Document                       | `Shift + Option + F`    |
+| Rename Symbol                         | `F2`                    |
+| Go to Definition                      | `F12`                   |
+| Peek Definition                       | `Option + F12`          |
+| Show Problems                         | `Cmd + Shift + M`       |
+| Open Settings                         | `Cmd + ,`               |
+| Open Extensions                       | `Cmd + Shift + X`       |
+
+### 💡 Tips to Boost Productivity
+
+- **Multi-Cursor Editing**: Hold `Alt` (Windows/Linux) or `Option` (macOS) and click to place multiple cursors.
+- **Zen Mode**: Toggle distraction-free mode with `Ctrl + K Z`.
+- **Minimap**: Enable/disable the code preview on the side under `View > Appearance > Show Minimap`.
+- **Quick Switch Projects**: Use the Project Manager extension for fast project switching.
+- **Custom Snippets**: Create your own code snippets via `Preferences: Configure User Snippets`.
+- **Drag & Drop Tabs**: Rearrange files in editor groups with ease.
+- **Auto Save**: Enable from `File > Auto Save` or set it to trigger on focus change.
+- **Split View**: Open the same file in two views with `Ctrl + \` and `Ctrl + 1` / `Ctrl + 2` to switch focus.
+
 ## THEMES AND CUSTOMIZATION
 ## DEBUGGING
 ## COMMON ISSUES AND TROUBLESHOOTING
