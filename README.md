@@ -201,6 +201,88 @@ Visual Studio Code is packed with keyboard shortcuts and hidden features that ca
 - **Split View**: Open the same file in two views with `Ctrl + \` and `Ctrl + 1` / `Ctrl + 2` to switch focus.
 
 ## THEMES AND CUSTOMIZATION
+
+One of the key strengths of Visual Studio Code is its high level of customization. You can tailor the editor to match your workflow, aesthetic preferences, and development needs. Here's how you can customize your environment effectively.
+
+### Popular Themes
+
+These themes are widely used by the developer community and offer great contrast and readability:
+
+| Theme Name          | Description                                         |
+|---------------------|-----------------------------------------------------|
+| **GitHub Theme**     | Clean and familiar, inspired by GitHub’s UI.        |
+| **Dracula Official** | A dark theme with vibrant colors and contrast.      |
+| **One Dark Pro**     | Popular theme inspired by Atom’s One Dark.          |
+| **Monokai Pro**      | A classic, colorful and visually appealing theme.   |
+| **Night Owl**        | Great for low-light environments and eye comfort.   |
+| **Tokyo Night**      | Elegant, cool-toned dark theme.                     |
+| **Material Theme**   | Google's Material Design inspired look.             |
+| **Ayu**              | Minimal and elegant light/dark variations.          |
+
+To install a theme:
+
+1. Open the Extensions tab (`Ctrl + Shift + X`)
+2. Search for the theme name
+3. Click **Install**, then go to `Preferences > Color Theme` to activate it
+
+### Customization Tips
+
+#### Change Font & Size
+
+Go to `File > Preferences > Settings` (or press `Ctrl + ,`) and search for:
+
+- **Editor: Font Family** – Set your preferred font (e.g., `Fira Code`, `JetBrains Mono`, etc.)
+- **Editor: Font Size** – Adjust font size for better readability
+
+#### Enable Ligatures
+
+If using a font like **Fira Code**, enable ligatures by adding this in your `settings.json`:
+
+```json
+"editor.fontLigatures": true
+````
+
+#### Configure Icons
+
+Use the `vscode-icons` extension for beautiful file/folder icons:
+
+```bash
+ext install vscode-icons
+```
+
+Then, enable it with:
+
+```json
+"workbench.iconTheme": "vscode-icons"
+```
+
+#### Customize Settings via JSON
+
+You can fully control VS Code behavior by editing the `settings.json` file:
+
+1. Open Command Palette (`Ctrl + Shift + P`)
+2. Type: `Preferences: Open Settings (JSON)`
+
+Example:
+
+```json
+{
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "vscode-icons"
+}
+```
+
+### 🧙‍♂Bonus: Live Preview Customization
+
+* Install **Live Server** extension for real-time HTML/CSS preview
+* You can customize behavior in workspace or global settings
+
+With themes and customization, you can turn VS Code into an efficient, visually pleasing development environment that matches your style perfectly.
+
+
 ## DEBUGGING
 ## COMMON ISSUES AND TROUBLESHOOTING
 ## MULTILANGUAGE SUPPORT
