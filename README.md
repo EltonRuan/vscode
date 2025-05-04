@@ -275,15 +275,94 @@ Example:
 }
 ```
 
-### 🧙‍♂Bonus: Live Preview Customization
+### Bonus: Live Preview Customization
 
 * Install **Live Server** extension for real-time HTML/CSS preview
 * You can customize behavior in workspace or global settings
 
 With themes and customization, you can turn VS Code into an efficient, visually pleasing development environment that matches your style perfectly.
 
-
 ## DEBUGGING
+
+VS Code offers a powerful built-in debugging experience that supports multiple languages and environments. With a clean interface and flexible configuration, you can debug your code efficiently without leaving the editor.
+
+### Why Use VS Code for Debugging?
+
+- Integrated terminal and console
+- Real-time variable inspection
+- Breakpoints, watch expressions, and call stack view
+- Seamless integration with Node.js, Python, PHP, and more
+- Custom launch configurations for various environments
+
+### Getting Started with Debugging
+
+1. Open your project folder
+2. Go to the **Run and Debug** panel (`Ctrl + Shift + D`)
+3. Click on **"Run and Debug"** or create a custom configuration (`launch.json`)
+4. Add breakpoints by clicking to the left of line numbers in the code editor
+5. Hit ▶️ **Start Debugging**
+
+### Configuring `launch.json`
+
+To create or edit configurations:
+
+1. Open the **Run and Debug** panel
+2. Click **create a `launch.json` file**
+3. Select the environment (Node.js, PHP, Python, etc.)
+4. Customize as needed
+
+Example for **Node.js**:
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch App",
+      "program": "${workspaceFolder}/app.js"
+    }
+  ]
+}
+````
+
+Example for **PHP (using Xdebug)**:
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for Xdebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9003
+    }
+  ]
+}
+```
+
+> Tip: For PHP, install the **PHP Debug** extension and make sure Xdebug is properly configured on your server.
+
+### Debugging Tips
+
+* Use `console.log()` wisely, but prefer breakpoints for cleaner debugging
+* Use **Watch** panel to monitor specific expressions or variables
+* Use **Step Over (F10)** and **Step Into (F11)** for precise flow control
+* Right-click in the variable section to **"Set Value"** during debugging
+* Debug tests or scripts directly from `launch.json` or the explorer
+
+### Debugging Other Languages
+
+* **Python**: Install the **Python** extension and it will auto-generate launch configurations.
+* **JavaScript/TypeScript**: Works natively.
+* **PHP**: Requires Xdebug setup.
+* **C/C++**: Requires the **C/C++** extension by Microsoft.
+* **.NET**: Use the **C#** extension for .NET Core debugging.
+
+Debugging in VS Code is intuitive, flexible, and extendable. With the right setup, you can reduce bugs faster and improve your overall development experience.
+
 ## COMMON ISSUES AND TROUBLESHOOTING
 ## MULTILANGUAGE SUPPORT
 ## FINAL CONSIDERATIONS
