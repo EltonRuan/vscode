@@ -364,5 +364,80 @@ Example for **PHP (using Xdebug)**:
 Debugging in VS Code is intuitive, flexible, and extendable. With the right setup, you can reduce bugs faster and improve your overall development experience.
 
 ## COMMON ISSUES AND TROUBLESHOOTING
+
+Even though Visual Studio Code is a powerful and reliable editor, it's common to face a few issues during setup or usage. Below are some frequent problems and how to solve them.
+
+### VS Code Not Detecting Installed Languages
+
+*Problem:*  
+Languages like PHP, Python, or Node.js are not recognized.
+
+*Solution:*  
+- Make sure the language is properly installed on your system.
+- Add the executable to your system's PATH variable.
+- Restart VS Code after installation.
+- Use the which php, which python, or which node command to confirm the path (Linux/macOS) or where (Windows).
+
+### Extensions Not Working
+
+*Problem:*  
+An extension doesn’t seem to apply changes or function as expected.
+
+*Solution:*  
+- Reload the editor (Ctrl + Shift + P → "Reload Window").
+- Make sure the extension is enabled and updated.
+- Check for conflicting extensions.
+- View the *OUTPUT* panel for extension-related errors.
+
+### Debugging Doesn’t Work
+
+*Problem:*  
+Breakpoints are ignored or debugging fails to start.
+
+*Solution:*  
+- Ensure your launch.json is configured properly.
+- Install and configure any required runtime (e.g., Xdebug for PHP).
+- Check if breakpoints are set in the correct scope/file.
+- Try restarting VS Code or your machine.
+
+### High Memory or CPU Usage
+
+*Problem:*  
+VS Code becomes slow or unresponsive.
+
+*Solution:*  
+- Disable unused extensions.
+- Close unused workspaces or files.
+- Increase memory allocation via settings.json.
+- Use the *Process Explorer* (Help → Open Process Explorer) to find heavy processes.
+
+### Unable to Open Folder or Workspace
+
+*Problem:*  
+"Permission denied" or blank workspace.
+
+*Solution:*  
+- Check folder permissions (especially on Linux/macOS).
+- Run VS Code as administrator (Windows) or with sudo if necessary (Linux).
+- Ensure the path is not too long or contains special characters.
+
+### Git Not Detected
+
+*Problem:*  
+Git commands are unavailable or source control panel is empty.
+
+*Solution:*  
+- Install Git and restart VS Code.
+- Ensure Git is added to your system's PATH.
+- Run git --version in the integrated terminal to verify installation.
+
+### General Troubleshooting Tips
+
+- Always keep VS Code and extensions updated.
+- Use Ctrl + Shift + P → Toggle Developer Tools to view console errors.
+- Try resetting user settings by clearing the settings.json.
+- Use F1 → "Clear Editor History" if projects are acting strange.
+- Check the official documentation or GitHub issues for known bugs.
+
 ## MULTILANGUAGE SUPPORT
 ## FINAL CONSIDERATIONS
