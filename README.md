@@ -503,8 +503,6 @@ json
 }
 `
 
----
-
 ### Extra Tip
 
 Use **Workspaces** to define language-specific settings on a per-project basis. This helps maintain consistency across teams and tech stacks.
