@@ -440,4 +440,75 @@ Git commands are unavailable or source control panel is empty.
 - Check the official documentation or GitHub issues for known bugs.
 
 ## MULTILANGUAGE SUPPORT
+
+Visual Studio Code is widely recognized for its outstanding support for multiple programming languages — both natively and through extensions. Whether you're working on web development, backend systems, scripting, or data science, VS Code can handle it all.
+
+### Languages Supported by Default
+
+VS Code provides built-in support for many languages with syntax highlighting, basic IntelliSense, and snippets, including:
+
+- JavaScript  
+- TypeScript  
+- HTML / CSS  
+- JSON  
+- Markdown  
+- Shell Script  
+- YAML  
+
+### Languages Supported via Extensions
+
+You can expand support for additional languages by installing dedicated extensions:
+
+| Language         | Recommended Extension                     |
+|------------------|--------------------------------------------|
+| **Python**       | Python (Microsoft)                         |
+| **PHP**          | PHP Intelephense                           |
+| **C/C++**        | C/C++ (Microsoft)                          |
+| **Java**         | Extension Pack for Java (Microsoft)        |
+| **C#**           | C# (OmniSharp)                             |
+| **Go**           | Go (Go Team at Google)                     |
+| **Rust**         | rust-analyzer                              |
+| **Ruby**         | Ruby                                       |
+| **Dart/Flutter** | Dart + Flutter                             |
+| **Kotlin**       | Kotlin Language                            |
+| **SQL**          | SQLTools                                   |
+| **Lua**          | Lua Language                               |
+| **R**            | R Extension for Visual Studio Code         |
+
+### Features Provided Per Language
+
+Most language extensions include:
+
+- **Intelligent autocomplete (IntelliSense)**  
+- **Symbol and file navigation**  
+- **Inline documentation and tooltips**  
+- **Debugging with breakpoints**  
+- **Linting and auto-formatting**  
+- **Custom code snippets**  
+
+---
+
+### ⚙Per-Language Configuration
+
+You can tailor settings for specific languages in your `settings.json` file. Example:
+
+json
+"[python]": {
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4
+},
+"[php]": {
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  "editor.formatOnSave": true
+}
+`
+
+---
+
+### Extra Tip
+
+Use **Workspaces** to define language-specific settings on a per-project basis. This helps maintain consistency across teams and tech stacks.
+
+VS Code empowers developers to work across multiple languages with ease — all within a single, lightweight, and highly customizable editor.
+
 ## FINAL CONSIDERATIONS
