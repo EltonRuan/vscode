@@ -510,3 +510,23 @@ Use **Workspaces** to define language-specific settings on a per-project basis. 
 VS Code empowers developers to work across multiple languages with ease — all within a single, lightweight, and highly customizable editor.
 
 ## FINAL CONSIDERATIONS
+
+<p>
+This guide was created to help developers of all experience levels get the most out of Visual Studio Code. From installation to debugging, from themes to powerful extensions, VS Code offers a robust and flexible environment that adapts to your personal workflow.
+</p>
+
+<p>
+By mastering its features, you can significantly boost your productivity, write cleaner code, and enjoy a more pleasant development experience. Whether you're a web developer, backend engineer, data scientist, or just starting your journey, VS Code has the tools to support your growth.
+</p>
+
+<p>
+We encourage you to experiment with settings, explore new extensions, and personalize your workspace. Technology evolves rapidly, and staying curious is the key to continuous improvement.
+</p>
+
+<br><br>
+
+<p><strong>© 2025 EltonRuan. All rights reserved.</strong></p>
+
+<footer align="center">
+  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
+</footer>
